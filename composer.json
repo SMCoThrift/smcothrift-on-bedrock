@@ -83,7 +83,8 @@
     "wpackagist-plugin/user-role-editor": "^4.64",
     "wpackagist-plugin/visibility-logic-elementor": "^2.3",
     "wpackagist-plugin/wp-members": "^3.5",
-    "wpackagist-plugin/wordpress-seo": "^25.7"
+    "wpackagist-plugin/wordpress-seo": "^25.7",
+    "wpackagist-theme/hello-elementor": "^3.4"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",
