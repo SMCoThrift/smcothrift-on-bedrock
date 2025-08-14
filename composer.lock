@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "22a6945f2ea6e09de38c8acd61619cb1",
+    "content-hash": "df542a501af27a77b816234c4a8549b7",
     "packages": [
         {
             "name": "composer/installers",
@@ -213,6 +213,41 @@
                 }
             ],
             "time": "2024-07-20T21:45:45+00:00"
+        },
+        {
+            "name": "mwender/smcothrift-mods",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mwender/smcothrift-mods.git",
+                "reference": "91fb24cec18c0cec021da495203e94c0b07a9eee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mwender/smcothrift-mods/zipball/91fb24cec18c0cec021da495203e94c0b07a9eee",
+                "reference": "91fb24cec18c0cec021da495203e94c0b07a9eee",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Wender",
+                    "email": "mwender@wenmarkdigital.com"
+                }
+            ],
+            "description": "Custom modifications and enhancements for SMCO Thrift.",
+            "support": {
+                "source": "https://github.com/mwender/smcothrift-mods/tree/master",
+                "issues": "https://github.com/mwender/smcothrift-mods/issues"
+            },
+            "time": "2025-08-14T17:24:23+00:00"
         },
         {
             "name": "oscarotero/env",
@@ -1015,6 +1050,516 @@
             "time": "2025-04-30T23:37:27+00:00"
         },
         {
+            "name": "wenmark/advanced-custom-fields-pro",
+            "version": "6.5.0.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.wenmarkdigital.com/satispress/advanced-custom-fields-pro/6.5.0.1",
+                "shasum": "c3f372244c417c0a113bf74993e65eb207f0e225"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "WP Engine",
+                    "homepage": "https://wpengine.com/?utm_source=wordpress.org&#038;utm_medium=referral&#038;utm_campaign=plugin_directory&#038;utm_content=advanced_custom_fields"
+                }
+            ],
+            "description": "Customize WordPress with powerful, professional and intuitive fields.",
+            "homepage": "https://www.advancedcustomfields.com"
+        },
+        {
+            "name": "wenmark/elementor-pro",
+            "version": "3.31.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.wenmarkdigital.com/satispress/elementor-pro/3.31.2",
+                "shasum": "2e70e340c31330156215a35d09965413fd37b8e2"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Elementor.com",
+                    "homepage": "https://go.elementor.com/wp-dash-wp-plugins-author-uri/"
+                }
+            ],
+            "description": "Elevate your designs and unlock the full power of Elementor. Gain access to dozens of Pro widgets and kits, Theme Builder, Pop Ups, Forms and WooCommerce building capabilities.",
+            "homepage": "https://go.elementor.com/wp-dash-wp-plugins-author-uri/"
+        },
+        {
+            "name": "wenmark/gravityforms",
+            "version": "2.9.15",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.wenmarkdigital.com/satispress/gravityforms/2.9.15",
+                "shasum": "c05bd9cf5b23b1e917536f2ef6c5916b59131ee7"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Gravity Forms",
+                    "homepage": "https://gravityforms.com"
+                }
+            ],
+            "description": "Easily create web forms and manage form entries within the WordPress admin.",
+            "homepage": "https://gravityforms.com"
+        },
+        {
+            "name": "wenmark/gravityformsadvancedpostcreation",
+            "version": "1.5.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.wenmarkdigital.com/satispress/gravityformsadvancedpostcreation/1.5.0",
+                "shasum": "9152cd7eb8aaaea610af14fc6dde4e5f3831f6a9"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Gravity Forms",
+                    "homepage": "https://gravityforms.com"
+                }
+            ],
+            "description": "Allows you to create new posts through Gravity Forms.",
+            "homepage": "https://gravityforms.com"
+        },
+        {
+            "name": "wenmark/gravityformscoupons",
+            "version": "3.5.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.wenmarkdigital.com/satispress/gravityformscoupons/3.5.0",
+                "shasum": "e588de7926e5985d1392ec684c7b7219879764b4"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Gravity Forms",
+                    "homepage": "https://gravityforms.com"
+                }
+            ],
+            "description": "Enables Gravity Forms administrators to create coupon codes that can be applied to products, services or subscriptions when used in conjunction with a payment add-on such as PayPal and Authorize.net.",
+            "homepage": "https://gravityforms.com"
+        },
+        {
+            "name": "wenmark/gravityformsstripe",
+            "version": "5.9.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.wenmarkdigital.com/satispress/gravityformsstripe/5.9.0",
+                "shasum": "4b8022a73552bf41748b14a96845ff87656bbad8"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Gravity Forms",
+                    "homepage": "https://gravityforms.com"
+                }
+            ],
+            "description": "Integrates Gravity Forms with Stripe, enabling end users to purchase goods and services through Gravity Forms.",
+            "homepage": "https://gravityforms.com"
+        },
+        {
+            "name": "wenmark/gravityformsuserregistration",
+            "version": "5.4.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.wenmarkdigital.com/satispress/gravityformsuserregistration/5.4.0",
+                "shasum": "4c065efa6f4896a7528723f5d9442713fd3abdf5"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Gravity Forms",
+                    "homepage": "https://gravityforms.com"
+                }
+            ],
+            "description": "Allows WordPress users to be automatically created upon submitting a Gravity Form.",
+            "homepage": "https://gravityforms.com"
+        },
+        {
+            "name": "wenmark/gravityformszapier",
+            "version": "4.4.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.wenmarkdigital.com/satispress/gravityformszapier/4.4.0",
+                "shasum": "98a3d8f77c3c36f3d6cb8ea0d03a9d1886589302"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Gravity Forms",
+                    "homepage": "https://gravityforms.com"
+                }
+            ],
+            "description": "Integrates Gravity Forms with Zapier, allowing form submissions to be automatically sent to your configured Zaps.",
+            "homepage": "https://gravityforms.com"
+        },
+        {
+            "name": "wpackagist-plugin/custom-post-type-ui",
+            "version": "1.18.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/custom-post-type-ui/",
+                "reference": "tags/1.18.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.18.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/custom-post-type-ui/"
+        },
+        {
+            "name": "wpackagist-plugin/disable-gutenberg",
+            "version": "3.2.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/disable-gutenberg/",
+                "reference": "tags/3.2.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/disable-gutenberg.3.2.3.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/disable-gutenberg/"
+        },
+        {
+            "name": "wpackagist-plugin/download-monitor",
+            "version": "5.0.33",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/download-monitor/",
+                "reference": "tags/5.0.33"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/download-monitor.5.0.33.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/download-monitor/"
+        },
+        {
+            "name": "wpackagist-plugin/duplicate-page",
+            "version": "4.5.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/duplicate-page/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/duplicate-page.zip?timestamp=1749804792"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/duplicate-page/"
+        },
+        {
+            "name": "wpackagist-plugin/dynamicconditions",
+            "version": "1.7.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/dynamicconditions/",
+                "reference": "tags/1.7.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/dynamicconditions.1.7.5.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/dynamicconditions/"
+        },
+        {
+            "name": "wpackagist-plugin/echo-knowledge-base",
+            "version": "15.111.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/echo-knowledge-base/",
+                "reference": "tags/15.111.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/echo-knowledge-base.15.111.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/echo-knowledge-base/"
+        },
+        {
+            "name": "wpackagist-plugin/elementor",
+            "version": "3.31.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/elementor/",
+                "reference": "tags/3.31.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/elementor.3.31.2.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/google-captcha",
+            "version": "1.83",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/google-captcha/",
+                "reference": "tags/1.83"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/google-captcha.1.83.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/google-captcha/"
+        },
+        {
+            "name": "wpackagist-plugin/google-site-kit",
+            "version": "1.159.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/google-site-kit/",
+                "reference": "tags/1.159.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/google-site-kit.1.159.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/google-site-kit/"
+        },
+        {
+            "name": "wpackagist-plugin/host-analyticsjs-local",
+            "version": "5.0.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/host-analyticsjs-local/",
+                "reference": "tags/5.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/host-analyticsjs-local.5.0.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/host-analyticsjs-local/"
+        },
+        {
+            "name": "wpackagist-plugin/localdev-switcher",
+            "version": "0.6.9",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/localdev-switcher/",
+                "reference": "tags/0.6.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/localdev-switcher.0.6.9.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/localdev-switcher/"
+        },
+        {
+            "name": "wpackagist-plugin/peters-login-redirect",
+            "version": "3.0.8.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/peters-login-redirect/",
+                "reference": "tags/3.0.8.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/peters-login-redirect.3.0.8.6.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/peters-login-redirect/"
+        },
+        {
+            "name": "wpackagist-plugin/redirection",
+            "version": "5.5.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/redirection/",
+                "reference": "tags/5.5.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/redirection.5.5.2.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/redirection/"
+        },
+        {
+            "name": "wpackagist-plugin/smtp2go",
+            "version": "1.12.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/smtp2go/",
+                "reference": "tags/1.12.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/smtp2go.1.12.2.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/smtp2go/"
+        },
+        {
+            "name": "wpackagist-plugin/spinupwp",
+            "version": "1.8.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/spinupwp/",
+                "reference": "tags/1.8.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/spinupwp.1.8.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/spinupwp/"
+        },
+        {
+            "name": "wpackagist-plugin/user-role-editor",
+            "version": "4.64.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/user-role-editor/",
+                "reference": "tags/4.64.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/user-role-editor.4.64.5.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/user-role-editor/"
+        },
+        {
+            "name": "wpackagist-plugin/visibility-logic-elementor",
+            "version": "2.3.9",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/visibility-logic-elementor/",
+                "reference": "tags/2.3.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/visibility-logic-elementor.2.3.9.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/visibility-logic-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/wordpress-seo",
+            "version": "25.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
+                "reference": "tags/25.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.25.7.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-seo/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-members",
+            "version": "3.5.4.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-members/",
+                "reference": "tags/3.5.4.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-members.3.5.4.2.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-members/"
+        },
+        {
             "name": "wpackagist-theme/twentytwentyfive",
             "version": "1.2",
             "source": {
@@ -1519,6 +2064,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "mwender/smcothrift-mods": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": true,

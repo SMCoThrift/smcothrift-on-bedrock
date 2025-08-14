@@ -17,19 +17,35 @@
     }
   ],
   "keywords": [
-    "bedrock", "composer", "roots", "wordpress", "wp", "wp-config"
+    "bedrock",
+    "composer",
+    "roots",
+    "wordpress",
+    "wp",
+    "wp-config"
   ],
   "support": {
     "issues": "https://github.com/roots/bedrock/issues",
     "forum": "https://discourse.roots.io/category/bedrock"
   },
-  "repositories": [
-    {
+  "repositories": {
+    "smcothrift-mods": {
+      "type": "vcs",
+      "url": "https://github.com/mwender/smcothrift-mods"
+    },
+    "satispress": {
+      "type": "composer",
+      "url": "https://packages.wenmarkdigital.com/satispress/"
+    },
+    "0": {
       "type": "composer",
       "url": "https://wpackagist.org",
-      "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
+      "only": [
+        "wpackagist-plugin/*",
+        "wpackagist-theme/*"
+      ]
     }
-  ],
+  },
   "require": {
     "php": ">=8.1",
     "composer/installers": "^2.2",
@@ -39,7 +55,35 @@
     "roots/bedrock-disallow-indexing": "^2.0",
     "roots/wordpress": "6.8.2",
     "roots/wp-config": "1.0.0",
-    "wpackagist-theme/twentytwentyfive": "^1.0"
+    "wpackagist-theme/twentytwentyfive": "^1.0",
+    "wenmark/advanced-custom-fields-pro": "^6.5",
+    "wpackagist-plugin/host-analyticsjs-local": "^5.0",
+    "wpackagist-plugin/custom-post-type-ui": "^1.18",
+    "wpackagist-plugin/disable-gutenberg": "^3.2",
+    "wpackagist-plugin/download-monitor": "^5.0",
+    "wpackagist-plugin/duplicate-page": "^4.5",
+    "wpackagist-plugin/dynamicconditions": "^1.7",
+    "wpackagist-plugin/elementor": "^3.31",
+    "wenmark/elementor-pro": "^3.31",
+    "wenmark/gravityforms": "^2.9",
+    "wenmark/gravityformsadvancedpostcreation": "^1.4",
+    "wenmark/gravityformscoupons": "^3.5",
+    "wenmark/gravityformsstripe": "^5.9",
+    "wenmark/gravityformsuserregistration": "^5.4",
+    "wenmark/gravityformszapier": "^4.4",
+    "wpackagist-plugin/echo-knowledge-base": "^15.111",
+    "wpackagist-plugin/localdev-switcher": "^0.6.9",
+    "wpackagist-plugin/peters-login-redirect": "^3.0",
+    "wpackagist-plugin/google-captcha": "^1.83",
+    "wpackagist-plugin/redirection": "^5.5",
+    "wpackagist-plugin/google-site-kit": "^1.159",
+    "mwender/smcothrift-mods": "dev-master",
+    "wpackagist-plugin/smtp2go": "^1.12",
+    "wpackagist-plugin/spinupwp": "^1.8",
+    "wpackagist-plugin/user-role-editor": "^4.64",
+    "wpackagist-plugin/visibility-logic-elementor": "^2.3",
+    "wpackagist-plugin/wp-members": "^3.5",
+    "wpackagist-plugin/wordpress-seo": "^25.7"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",
@@ -57,9 +101,15 @@
   "prefer-stable": true,
   "extra": {
     "installer-paths": {
-      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
-      "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
-      "web/app/themes/{$name}/": ["type:wordpress-theme"]
+      "web/app/mu-plugins/{$name}/": [
+        "type:wordpress-muplugin"
+      ],
+      "web/app/plugins/{$name}/": [
+        "type:wordpress-plugin"
+      ],
+      "web/app/themes/{$name}/": [
+        "type:wordpress-theme"
+      ]
     },
     "wordpress-install-dir": "web/wp"
   },
