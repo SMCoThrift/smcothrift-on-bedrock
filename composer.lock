@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9aa93ab4c34187bd6087a89ac3bf03fc",
+    "content-hash": "cf1b2ad00a26c583d8200e23ea7b2e9b",
     "packages": [
         {
             "name": "composer/installers",
@@ -1432,6 +1432,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/peters-login-redirect/"
+        },
+        {
+            "name": "wpackagist-plugin/power-boost-for-gravity-forms",
+            "version": "3.2.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/power-boost-for-gravity-forms/",
+                "reference": "tags/3.2.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/power-boost-for-gravity-forms.3.2.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/power-boost-for-gravity-forms/"
         },
         {
             "name": "wpackagist-plugin/redirection",
