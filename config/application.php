@@ -134,6 +134,10 @@ Config::define('WP_POST_REVISIONS', env('WP_POST_REVISIONS') ?? true);
 // Disable script concatenation
 Config::define('CONCATENATE_SCRIPTS', false);
 
+// Memory Limits
+Config::define('WP_MEMORY_LIMIT', env('WP_MEMORY_LIMIT') ?? '128M' );
+Config::define('WP_MAX_MEMORY_LIMIT', env('WP_MAX_MEMORY_LIMIT') ?? '256M' );
+
 /**
  * Debugging Settings
  */
