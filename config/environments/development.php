@@ -21,13 +21,3 @@ ini_set('display_errors', '1');
 
 // Enable plugin and theme updates and installation from the admin
 Config::define('DISALLOW_FILE_MODS', false);
-
-
-/**
- * Redirects wp-content/uploads URLs to the production server in local environments.
- */
-add_filter( 'upload_dir', function( $dirs ) {
-	if( REMOTE_UPLOADS_URL )
-		$dirs['baseurl'] = REMOTE_UPLOADS_URL; // 'https://example.com/wp-content/uploads';
-  return $dirs;
-} );
