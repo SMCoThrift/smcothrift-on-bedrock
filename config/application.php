@@ -149,10 +149,10 @@ ini_set('display_errors', '0');
 /**
  * SMTP2GO Plugin Constants
  */
-Config::define('SMTP2GO_API_KEY', env('SMTP2GO_API_KEY') ?? '' );
-if( ! empty( SMTP2GO_API_KEY ) )
-    Config::define( 'SMTP2GO_USE_CONSTANTS', true );
-
+Config::define( 'SMTP2GO_API_KEY', env( 'SMTP2GO_API_KEY' ) ?? '' );
+if ( ! empty( Config::get( 'SMTP2GO_API_KEY' ) ) ) {
+  Config::define( 'SMTP2GO_USE_CONSTANTS', true );
+}
 /**
  * Allow WordPress to detect HTTPS when used behind a reverse proxy or a load balancer
  * See https://codex.wordpress.org/Function_Reference/is_ssl#Notes
