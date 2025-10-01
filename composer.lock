@@ -1098,11 +1098,11 @@
         },
         {
             "name": "wenmark/elementor-pro",
-            "version": "3.32.1",
+            "version": "3.32.2",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/elementor-pro/3.32.1",
-                "shasum": "0d8c67504cc139962bb16407eda7ba260996a5c8"
+                "url": "https://packages.wenmarkdigital.com/satispress/elementor-pro/3.32.2",
+                "shasum": "0bcc67e6ef7f94fd1cc506ddf073474f7b954b00"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1335,15 +1335,15 @@
         },
         {
             "name": "wpackagist-plugin/echo-knowledge-base",
-            "version": "15.311.0",
+            "version": "15.312.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/echo-knowledge-base/",
-                "reference": "tags/15.311.0"
+                "reference": "tags/15.312.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/echo-knowledge-base.15.311.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/echo-knowledge-base.15.312.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1353,15 +1353,15 @@
         },
         {
             "name": "wpackagist-plugin/elementor",
-            "version": "3.32.2",
+            "version": "3.32.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/elementor/",
-                "reference": "tags/3.32.2"
+                "reference": "tags/3.32.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elementor.3.32.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/elementor.3.32.3.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1389,15 +1389,15 @@
         },
         {
             "name": "wpackagist-plugin/google-site-kit",
-            "version": "1.162.0",
+            "version": "1.162.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/google-site-kit/",
-                "reference": "tags/1.162.0"
+                "reference": "tags/1.162.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-site-kit.1.162.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/google-site-kit.1.162.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1713,12 +1713,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "f48b3e601515b060334744b4b495f0d6b3cc2e6b"
+                "reference": "684ef27cdce62b6562f77a92dc76bdfb46542a2d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/f48b3e601515b060334744b4b495f0d6b3cc2e6b",
-                "reference": "f48b3e601515b060334744b4b495f0d6b3cc2e6b",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/684ef27cdce62b6562f77a92dc76bdfb46542a2d",
+                "reference": "684ef27cdce62b6562f77a92dc76bdfb46542a2d",
                 "shasum": ""
             },
             "conflict": {
@@ -2006,6 +2006,7 @@
                 "gogentooss/samlbase": "<1.2.7",
                 "google/protobuf": "<3.4",
                 "gos/web-socket-bundle": "<1.10.4|>=2,<2.6.1|>=3,<3.3",
+                "gp247/core": "<1.1.24",
                 "gree/jose": "<2.2.1",
                 "gregwar/rst": "<1.0.3",
                 "grumpydictator/firefly-iii": "<6.1.17",
@@ -2208,6 +2209,7 @@
                 "notrinos/notrinos-erp": "<=0.7",
                 "noumo/easyii": "<=0.9",
                 "novaksolutions/infusionsoft-php-sdk": "<1",
+                "novosga/novosga": "<=2.2.9",
                 "nukeviet/nukeviet": "<4.5.02",
                 "nyholm/psr7": "<1.6.1",
                 "nystudio107/craft-seomatic": "<3.4.12",
@@ -2338,7 +2340,7 @@
                 "roundcube/roundcubemail": "<1.5.10|>=1.6,<1.6.11",
                 "rudloff/alltube": "<3.0.3",
                 "rudloff/rtmpdump-bin": "<=2.3.1",
-                "s-cart/core": "<6.9",
+                "s-cart/core": "<=9.0.5",
                 "s-cart/s-cart": "<6.9",
                 "sabberworm/php-css-parser": ">=1,<1.0.1|>=2,<2.0.1|>=3,<3.0.1|>=4,<4.0.1|>=5,<5.0.9|>=5.1,<5.1.3|>=5.2,<5.2.1|>=6,<6.0.2|>=7,<7.0.4|>=8,<8.0.1|>=8.1,<8.1.1|>=8.2,<8.2.1|>=8.3,<8.3.1",
                 "sabre/dav": ">=1.6,<1.7.11|>=1.8,<1.8.9",
@@ -2410,6 +2412,7 @@
                 "starcitizentools/citizen-skin": ">=1.9.4,<3.4",
                 "starcitizentools/short-description": ">=4,<4.0.1",
                 "starcitizentools/tabber-neue": ">=1.9.1,<2.7.2|>=3,<3.1.1",
+                "starcitizenwiki/embedvideo": "<=4",
                 "statamic/cms": "<=5.16",
                 "stormpath/sdk": "<9.9.99",
                 "studio-42/elfinder": "<=2.1.64",
@@ -2676,7 +2679,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-09-19T18:07:33+00:00"
+            "time": "2025-09-24T21:05:21+00:00"
         }
     ],
     "aliases": [],
