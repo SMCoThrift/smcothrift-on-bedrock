@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "71fa30c0393c28f82d185a1aea77fff1",
+    "content-hash": "019be2fab6584ffaaab94febc1200404",
     "packages": [
         {
             "name": "composer/installers",
@@ -1548,24 +1548,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/user-role-editor/"
-        },
-        {
-            "name": "wpackagist-plugin/visibility-logic-elementor",
-            "version": "2.3.9",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/visibility-logic-elementor/",
-                "reference": "tags/2.3.9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/visibility-logic-elementor.2.3.9.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/visibility-logic-elementor/"
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
