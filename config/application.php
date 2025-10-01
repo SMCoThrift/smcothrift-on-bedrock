@@ -134,9 +134,35 @@ Config::define('WP_POST_REVISIONS', env('WP_POST_REVISIONS') ?? true);
 // Disable script concatenation
 Config::define('CONCATENATE_SCRIPTS', false);
 
-// Memory Limits
-Config::define('WP_MEMORY_LIMIT', env('WP_MEMORY_LIMIT') ?? '128M' );
-Config::define('WP_MAX_MEMORY_LIMIT', env('WP_MAX_MEMORY_LIMIT') ?? '256M' );
+/**
+ * Bedrock Constants Loader
+ *
+ * Reads values from .env and defines them as WordPress constants.
+ * Keeps config DRY and environment-specific.
+ */
+$constant_map = [
+  'WP_MEMORY_LIMIT'     => 'WP_MEMORY_LIMIT',
+  'WP_MAX_MEMORY_LIMIT' => 'WP_MAX_MEMORY_LIMIT',
+  'AUTOSAVE_INTERVAL'   => 'AUTOSAVE_INTERVAL',
+  'WP_POST_REVISIONS'   => 'WP_POST_REVISIONS',
+  'DISALLOW_FILE_EDIT'  => 'DISALLOW_FILE_EDIT',
+];
+
+foreach ($constant_map as $env_key => $constant_name) {
+  $value = env($env_key);
+  if ($value !== null && ! defined($constant_name)) {
+    // Cast booleans and numbers properly
+    if (is_numeric($value)) {
+      $value = (int) $value;
+    } elseif (strtolower($value) === 'true') {
+      $value = true;
+    } elseif (strtolower($value) === 'false') {
+      $value = false;
+    }
+
+    define($constant_name, $value);
+  }
+}
 
 /**
  * Debugging Settings
