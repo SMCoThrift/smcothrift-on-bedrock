@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "019be2fab6584ffaaab94febc1200404",
+    "content-hash": "f6e83b1a9d52862beb14df4e3c786fad",
     "packages": [
         {
             "name": "composer/installers",
@@ -1515,15 +1515,15 @@
         },
         {
             "name": "wpackagist-plugin/spinupwp",
-            "version": "1.8.0",
+            "version": "1.9.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/spinupwp/",
-                "reference": "tags/1.8.0"
+                "reference": "tags/1.9.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/spinupwp.1.8.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/spinupwp.1.9.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"

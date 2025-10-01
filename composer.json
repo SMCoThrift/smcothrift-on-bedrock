@@ -79,7 +79,7 @@
     "wpackagist-plugin/google-site-kit": "^1.159",
     "mwender/smcothrift-mods": "1.7.1",
     "wpackagist-plugin/smtp2go": "^1.12",
-    "wpackagist-plugin/spinupwp": "^1.8",
+    "wpackagist-plugin/spinupwp": "^1",
     "wpackagist-plugin/user-role-editor": "^4.64",
     "wpackagist-plugin/wp-members": "^3.5",
     "wpackagist-plugin/wordpress-seo": "^26",
