@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4255877fd5fc005b59f15691529c5671",
+    "content-hash": "5868d44645578bcf6592cbded95b3181",
     "packages": [
         {
             "name": "composer/installers",
@@ -216,16 +216,16 @@
         },
         {
             "name": "mwender/smcothrift-mods",
-            "version": "1.8.0",
+            "version": "1.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mwender/smcothrift-mods.git",
-                "reference": "32f4e791d0a113399ffac4a8212c5dbd9274ef0a"
+                "reference": "d54a83af9f81faf4d1d486c68d50c7ad2d6455c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mwender/smcothrift-mods/zipball/32f4e791d0a113399ffac4a8212c5dbd9274ef0a",
-                "reference": "32f4e791d0a113399ffac4a8212c5dbd9274ef0a",
+                "url": "https://api.github.com/repos/mwender/smcothrift-mods/zipball/d54a83af9f81faf4d1d486c68d50c7ad2d6455c3",
+                "reference": "d54a83af9f81faf4d1d486c68d50c7ad2d6455c3",
                 "shasum": ""
             },
             "require": {
@@ -243,10 +243,10 @@
             ],
             "description": "Custom modifications and enhancements for SMCO Thrift.",
             "support": {
-                "source": "https://github.com/mwender/smcothrift-mods/tree/1.8.0",
+                "source": "https://github.com/mwender/smcothrift-mods/tree/1.8.1",
                 "issues": "https://github.com/mwender/smcothrift-mods/issues"
             },
-            "time": "2025-10-02T16:24:24+00:00"
+            "time": "2025-10-02T16:31:21+00:00"
         },
         {
             "name": "oscarotero/env",
