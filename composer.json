@@ -74,7 +74,6 @@
     "wpackagist-plugin/peters-login-redirect": "^3.0",
     "wpackagist-plugin/google-captcha": "^1.83",
     "wpackagist-plugin/redirection": "^5.5",
-    "wpackagist-plugin/google-site-kit": "^1.159",
     "mwender/smcothrift-mods": "^1.8",
     "wpackagist-plugin/smtp2go": "^1.12",
     "wpackagist-plugin/spinupwp": "^1",

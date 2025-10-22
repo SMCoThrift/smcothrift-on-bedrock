@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "991c55c16cac806dc99d3fa688fa707a",
+    "content-hash": "08172c17d8cca24fa6572f17468cb771",
     "packages": [
         {
             "name": "composer/installers",
@@ -1350,24 +1350,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/google-captcha/"
-        },
-        {
-            "name": "wpackagist-plugin/google-site-kit",
-            "version": "1.162.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/google-site-kit/",
-                "reference": "tags/1.162.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-site-kit.1.162.1.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/google-site-kit/"
         },
         {
             "name": "wpackagist-plugin/host-analyticsjs-local",
