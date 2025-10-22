@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "592683ccb92e81099cf2affb2fff50fc",
+    "content-hash": "991c55c16cac806dc99d3fa688fa707a",
     "packages": [
         {
             "name": "composer/installers",
@@ -1242,24 +1242,6 @@
             ],
             "description": "Integrates Gravity Forms with Zapier, allowing form submissions to be automatically sent to your configured Zaps.",
             "homepage": "https://gravityforms.com"
-        },
-        {
-            "name": "wpackagist-plugin/custom-post-type-ui",
-            "version": "1.18.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/custom-post-type-ui/",
-                "reference": "tags/1.18.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.18.0.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/custom-post-type-ui/"
         },
         {
             "name": "wpackagist-plugin/disable-gutenberg",
