@@ -1119,11 +1119,11 @@
         },
         {
             "name": "wenmark/gravityforms",
-            "version": "2.9.18",
+            "version": "2.9.20",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/gravityforms/2.9.18",
-                "shasum": "8440c81ff2d0864124b61205389dc1a942aeffb1"
+                "url": "https://packages.wenmarkdigital.com/satispress/gravityforms/2.9.20",
+                "shasum": "ca6d82da56983604874a6ba225c08e507b04276a"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
