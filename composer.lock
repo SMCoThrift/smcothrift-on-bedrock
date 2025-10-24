@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "08172c17d8cca24fa6572f17468cb771",
+    "content-hash": "f6ac33069289951ead4fb7b37c849f0a",
     "packages": [
         {
             "name": "composer/installers",
@@ -1530,6 +1530,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-members/"
+        },
+        {
+            "name": "wpackagist-plugin/zapier",
+            "version": "1.5.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/zapier/",
+                "reference": "tags/1.5.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/zapier.1.5.3.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/zapier/"
         },
         {
             "name": "wpackagist-theme/hello-elementor",

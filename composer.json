@@ -81,7 +81,8 @@
     "wpackagist-plugin/wp-members": "^3.5",
     "wpackagist-plugin/wordpress-seo": "^26",
     "wpackagist-theme/hello-elementor": "^3.4",
-    "wpackagist-plugin/power-boost-for-gravity-forms": "^3.2"
+    "wpackagist-plugin/power-boost-for-gravity-forms": "^3.2",
+    "wpackagist-plugin/zapier": "^1.5"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",
